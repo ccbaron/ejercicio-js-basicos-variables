@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ATM Screen</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="flex items-center justify-center h-screen bg-gray-100">
+    <div class="bg-black text-green-500 p-6 rounded-lg w-80 text-center font-mono shadow-lg">
+        <h1 class="text-3xl mb-4">ATM Terminal</h1>
+        <p>Name: <span id="userName">----</span></p>
+        <p>Balance: <span id="userBalance">$0.00</span><span> €</span></p>
+        <p>Date: <span id="currentDate">--/--/----</span></p>
+    </div>
+
+    <script>
+        let userName = "";
+        let userBalance = 0; // Espero que realmente tengas que cambiar el valor de esta variable... 😢
+        let currentDate = "";
+
+        /* NO MODIFICAR A PARTIR DE AQUÍ */ 
+        document.getElementById("userName").textContent = userName;
+        document.getElementById("userBalance").textContent = userBalance;
+        document.getElementById("currentDate").textContent = currentDate;
+    </script>
+</body>
+</html>

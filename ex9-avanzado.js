@@ -1,6 +1,6 @@
 /** Completo cada console.log vació con el código necesario para realizar cada ejercicio. Ayuda: https://www.w3schools.com/js/js_string_methods.asp  */
 
-let texto = "singulars"; // Si cambiaramos esta palabra, debería seguir funcionando todos los ejercicios
+let texto = "Javascript es genial"; // Si cambiaramos esta palabra, debería seguir funcionando todos los ejercicios
 
 console.log("Ejercicio 1: Longitud del string"); 
 console.log();  // por ejemplo, aquí, entre los paréntesis, tenemos que poner: texto.length

@@ -3,8 +3,8 @@
  * 
  * Crea 4 variables para almacenar los siguientes valores:
  * 
- * 1. Número de gatos
- * 2. Tu próxima pareja
+ * 1. Número de gatos (ya está creada e inicializada)
+ * 2. Tu pareja o próxima pareja
  * 3. Un país donde te gustaría vivir
  * 4. Un trabajo de ensueño
  * 
@@ -18,5 +18,5 @@
 
 let numeroGatos = 10;
 
-let futuro = "tendréis " + numeroGatos + " gatos";
+let futuro = "tendréis " + numeroGatos + " gatos"; // <-- Vas a tener que modificar esta línea
 console.log(futuro);

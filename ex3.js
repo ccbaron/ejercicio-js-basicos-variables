@@ -1,5 +1,5 @@
 /**
- * Jugando con string
+ * Jugando con strings
  */
 
 let nombre = "Mad";
@@ -8,8 +8,8 @@ let apellido = "Max";
 let presentacion = "";
 
 /**
- * Pregunta 1: ¿Qué valor tengo que asignar a 'presenetacion' para que me muestre pantalla:
- *   * "Me llamo Mad Max?"
+ * Pregunta 1: Modifica la línea 8. ¿Qué valor tengo que asignar a 'presenetacion' para que me muestre pantalla:
+ *   * "Me llamo Mad Max"
  *
  * 
  * 
